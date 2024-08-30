@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text on Image</title>
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: for better readability */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+        <div class="text">Top Right Text</div>
+    </div>
+</body>
+</html>
